@@ -21,8 +21,11 @@ def strong(password):
         print("Weak password")
 
 # Example usage
-generated_password = generate_password()
-strong(generated_password)
+n = int(input("Enter the no of passwords to be generated"))
+for i in range(n):
+    generated_password = generate_password()
+    print("Generated Password:", generated_password)
+    strong(generated_password)
 
         
     
@@ -30,6 +33,6 @@ strong(generated_password)
         
 
 # Example usage
-print("Generated Password:", generated_password)
+
 
 
