@@ -20,7 +20,7 @@ def strong(password):
     else:
         print("Weak password")
 
-# Example usage
+
 n = int(input("Enter the no of passwords to be generated"))
 for i in range(n):
     generated_password = generate_password()
@@ -32,7 +32,7 @@ for i in range(n):
     
         
 
-# Example usage
+
 
 
 
